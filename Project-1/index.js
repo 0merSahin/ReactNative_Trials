@@ -10,6 +10,7 @@ import {Text, AppRegistry, View} from "react-native";
 
 import Header from "./src/components/Header";
 import CarList from "./src/components/CarList";
+import Item from "./src/components/Item";
 
 const isHermes = () => !!global.HermesInternal;
 

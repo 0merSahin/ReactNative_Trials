@@ -1,14 +1,20 @@
 import React from "react";
-import { View, Text } from "react-native";
+import { Text } from "react-native";
+import Item from "./Item";
+import ItemSection from "./itemSection";
 
 
 const CarDetail = (props) => {
-    return <View>
-        <Text>
-            { props.object.id }
-            - { props.object.name }
-        </Text>
-    </View>
+    return (
+        <Item>
+            <ItemSection>
+                <Text>
+                    { props.object.id }
+                    - { props.object.name }
+                </Text>
+            </ItemSection>
+        </Item>
+    );
 }
 
 
