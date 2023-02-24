@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { View, Text } from "react-native";
+import { View, Text, ScrollView } from "react-native";
 import axios from "axios";
 import CarDetail from "./CarDetail";
 
@@ -44,9 +44,11 @@ class CarList extends Component {
         console.log (this.state);
         
         return (
-            <View>
+            <ScrollView>
                 { this.renderList() }
-            </View>
+            </ScrollView>
+            // ScrollView doğru çalışması için,
+            // index.js > App > View'in içerisine flex:1 vermemiz gerekiyor.
         );
     }
 }

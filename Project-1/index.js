@@ -17,7 +17,7 @@ const isHermes = () => !!global.HermesInternal;
 // Component:
 const App = () => {
     return (
-        <View> 
+        <View style = {{flex: 1}}> 
             <Header title = {"Arabalar"} />
             <CarList />
         </View>
