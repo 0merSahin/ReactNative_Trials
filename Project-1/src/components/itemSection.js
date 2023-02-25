@@ -19,7 +19,7 @@ const styles = {
         borderColor: "gainsbro",
         flexDirection: "row", // Ana ekseni yatay yaptık.
         justifyContent: "flex-start",
-        padding: 5
+        padding: 5,
     }
 }
 

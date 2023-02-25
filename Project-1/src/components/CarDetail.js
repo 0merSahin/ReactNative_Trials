@@ -1,7 +1,9 @@
 import React from "react";
-import { Text, View, Image } from "react-native";
+import { Text, View, Image, Linking } from "react-native";
+
 import Item from "./Item";
 import ItemSection from "./itemSection";
+import Button from "./Button";
 
 
 const CarDetail = (props) => {
@@ -37,6 +39,23 @@ const CarDetail = (props) => {
                     }}
                 />
             </ItemSection>
+            <ItemSection>
+                <Button
+                    title = "Click me"
+                    onPress = {() => {
+                        console.log (props.object.address.city);
+                    }}
+                    // Yukarıdaki fonksiyon Button.js 'de Button fonksiyonuyla bağlantılı!
+                />
+            </ItemSection>
+            <ItemSection>
+                <Button
+                    title = "Site Aç"
+                    onPress = { () => {
+                        Linking.openURL("https://linktr.ee/omersahin");
+                    }}
+                />
+            </ItemSection>
         </Item>
     )
 }
@@ -58,6 +77,7 @@ const styles = {
         height: 300,
         flex: 1,
         width: 0,
+        borderRadius: 50,
     }
 }
 

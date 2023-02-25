@@ -7,7 +7,7 @@ const Item = (props) => {
             { props.children }
         </View>
         // Yukarıdaki {props.children} , CarDetail dosyasında Item etiketi ile sardığımız veriyi alırız.
-    );
+    )
 }
 
 
