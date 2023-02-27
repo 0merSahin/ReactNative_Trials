@@ -28,4 +28,4 @@ const App = () => {
 
 // Render Component to Screen:
 /* ReactNative.AppRegistry.registerComponent ("FirstProject", () => App); */
-AppRegistry.registerComponent ("FirstProject", () => App);
+AppRegistry.registerComponent ("FirstProject", () => App); 
