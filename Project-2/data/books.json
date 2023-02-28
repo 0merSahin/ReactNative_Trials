@@ -1,0 +1,9 @@
+[
+    { "title": "Harry Potter", "author": "J.K. Rowling", "key": "1" },
+    { "title": "Lord of the rings", "author": "J.R.R. Tolkien", "key": "2" },
+    { "title": "Le Petit Prince", "author": "Antoine de Saint-Exupery", "key": "3" },
+    { "title": "Fairy tales", "author": "Hans Christian Andersen", "key": "4" },
+    { "title": "The Divine Comedy", "author": "Dante Alighieri", "key": "5" },
+    { "title": "Pride and Prejudice", "author": "Jane Austen", "key": "6" },
+    { "title": "Les Miserables", "author": "Victor Hugo", "key": "7" }
+]
